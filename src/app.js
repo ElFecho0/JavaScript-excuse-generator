@@ -5,7 +5,7 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
+function myFunction() {
   //write your code here
   let who = ["the dog", "my granma", "his turtle", "my bird"];
   let action = ["ate", "peed", "crushed", "broke"];
@@ -27,4 +27,5 @@ window.onload = function() {
   console.log(excusa);
 
   document.getElementById("excuse").innerHTML = excusa;
-};
+}
+document.getElementById("myBtn").addEventListener("click", myFunction);
